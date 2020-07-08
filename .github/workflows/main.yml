@@ -27,4 +27,4 @@ jobs:
       - name: Push
         run: |
           docker push ${{ secrets.DOCKER_USER }}/kube-letsencrypt:${{ github.sha }}
-          docker push ${{ secrets.DOCKER_USER }}/ckube-letsencrypt:latest
+          docker push ${{ secrets.DOCKER_USER }}/kube-letsencrypt:latest
